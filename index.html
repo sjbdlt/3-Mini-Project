@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3 Mini Project</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+
+<main> 
+    <header>
+        <h1 style="text-align:center"> Welecome to Rock Paper Scissors</h1>
+    </header>
+    <div>
+        <div class="card">
+                <ul>
+                    <li>R = Rock</li>
+                    <li>P = Paper</li>
+                    <li>S = Scissor</li>
+                </ul>
+            Player 1:<input type="text" id="playervalue" name="pvalue" onblur="startgame(playervalue.value)">           
+        </div>
+        <div class="card2">
+            Wins:<label id="wins">0</label> Losses:<label id="losses">0</label>Ties:<label id="ties">0</label>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+*{
+    margin: 10px;
+    padding: 10px;
+
+}
+
+main{
+    align-items: center;    
+    background-color: darkgray;
+}
+
+.card{
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.card2{
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+#playervalue{
+    width: 200px;
+}
+
+#playervalue:hover{
+    background-color: yellow;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+}
+
+/* Cards are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 768px) {
+    #playervalue{
+        width: 50px;
+    }
+    div{
+
+    display: flex;
+    flex-wrap: wrap;
+    }
+  }
